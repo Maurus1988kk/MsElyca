@@ -1,0 +1,28 @@
+# Informazioni di versione mostrate da Windows (Proprietà del file, Gestione attività).
+# Per una nuova versione aggiorna filevers/prodvers e le stringhe FileVersion/ProductVersion.
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 0, 0, 0),
+    prodvers=(1, 0, 0, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+  ),
+  kids=[
+    StringFileInfo([
+      StringTable('041004B0', [
+        StringStruct('CompanyName', 'Elyca'),
+        StringStruct('FileDescription', 'Elyca - mascotte desktop'),
+        StringStruct('FileVersion', '1.0.0'),
+        StringStruct('InternalName', 'Elyca'),
+        StringStruct('OriginalFilename', 'Elyca.exe'),
+        StringStruct('ProductName', 'Elyca'),
+        StringStruct('ProductVersion', '1.0.0')
+      ])
+    ]),
+    VarFileInfo([VarStruct('Translation', [0x0410, 1200])])
+  ]
+)

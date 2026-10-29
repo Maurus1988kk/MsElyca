@@ -1,0 +1,26 @@
+# Personal settings and runtime data (created next to main.py / Elyca.exe)
+config.json
+logs/
+models/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Build output (PyInstaller) and generated build assets
+build/
+dist/
+packaging/elyca.ico
+
+# Private project files
+prompt.txt
+Elica.png
+
+# Editors / OS
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+desktop.ini
